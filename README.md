@@ -1,6 +1,12 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<user>/<repo>/blob/main/notebooks/1_warmup_1d.ipynb)
-
 # Exercises of the Uncertainty in ML lesson
+
+| Notebook | Colab |
+|---|---|
+| 1. Warm-up in 1D | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/valsdav/Uncertainties-in-ML-school/blob/main/1_warmup_1d.ipynb) |
+| 2. Calorimetry regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/valsdav/Uncertainties-in-ML-school/blob/main/2_calorimetry_regression.ipynb) |
+| 3. 2D classifier | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/valsdav/Uncertainties-in-ML-school/blob/main/3_classifier2d.ipynb) |
+| 4. Response map: regression | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/valsdav/Uncertainties-in-ML-school/blob/main/4_respmap_regression.ipynb) |
+| 5. Response map: density | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/valsdav/Uncertainties-in-ML-school/blob/main/5_respmap_density.ipynb) |
 
 ## Tutorial environment setup
 The notebooks need only **numpy, matplotlib, torch (CPU is enough), jupyterlab**.
