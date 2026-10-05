@@ -1,9 +1,12 @@
-# Tutorial environment — uncertainty-aware neural networks
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<user>/<repo>/blob/main/notebooks/1_warmup_1d.ipynb)
 
+# Exercises of the Uncertainty in ML lesson
+
+## Tutorial environment setup
 The notebooks need only **numpy, matplotlib, torch (CPU is enough), jupyterlab**.
 Put the `*.ipynb` files in a folder and pick ONE of the routes below.
 
-## Option A — local virtual environment (recommended)
+### Option A — local virtual environment (recommended)
 
 ```bash
 bash setup_env.sh          # creates ./.venv, installs packages, starts Jupyter Lab
@@ -19,7 +22,7 @@ jupyter lab
 (`bash setup_env.sh --no-lab` sets up without launching. On Windows, use WSL,
 or run the same pip commands in an Anaconda/venv prompt.)
 
-## Option B — Docker, zero local Python
+### Option B — Docker, zero local Python
 
 With the provided `Dockerfile` (CPU-only torch, image ≈ 1.5 GB):
 
@@ -31,7 +34,7 @@ docker run -it --rm -p 8888:8888 -v "$PWD":/work uncertainty-school
 then open the `http://127.0.0.1:8888/lab?token=...` link printed in the terminal.
 Your current folder is mounted at `/work`, so edits persist on your machine.
 
-### Option B' — no build at all
+#### Option B' — no build at all
 
 Use the official Jupyter PyTorch image directly:
 
